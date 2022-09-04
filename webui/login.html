@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="form-structor">
+        <div class="signup">
+            <h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
+            <div class="form-holder">
+                <input type="text" class="input" id="txtName" placeholder="Name" />
+                <input type="text" class="input" id="txtSurname" placeholder="Surname" />
+                <input type="email" class="input" id="txtEmail1" placeholder="Email" />
+                <input type="password" class="input" id="txtPass1" placeholder="Password" />
+            </div>
+            <button onclick="signUp()" class="submit-btn">Sign up</button>
+        </div>
+        <div class="login slide-up">
+            <div class="center">
+                <h2 class="form-title" id="login"><span>or</span>Log in</h2>
+                <div class="form-holder">
+                    <input type="email" class="input" id="txtEmail2" placeholder="Email" />
+                    <input type="password" class="input" id="txtPass2" placeholder="Password" />
+                </div>
+                <button  onclick="login()" class="submit-btn">Log in</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>
